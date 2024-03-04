@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Project Quest
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A project management application with RPG-style gamification features
 
-## Available Scripts
+### About Project Quest
+Project Quest is a tool currently under development aimed at providing a unique project management experience. It combines the simplicity of a task manager with the excitement of Role-Playing Games (RPGs).
 
-In the project directory, you can run:
+### The Motivation Behind Project Quest
+The idea for Project Quest originated from a basic task manager I created for my personal use at work. This simple tool allowed for task creation, deletion, and marking tasks as "done". However, despite its utility, it lacked the robustness I needed in a project management tool.
 
-### `npm start`
+### The RPG Connection
+The process of adding tasks and tracking their progress reminded me of the quests in RPGs. This connection sparked the idea of integrating RPG elements into the project management process, making it more engaging and less mundane.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### What features are planned?
+Project Quest's development is planned in three phases:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Basic Features
+    * **Projects (Campaigns)**: Each project will have a title, a description, and a list of tasks associated with it.
+    * **Tasks (Quests)**: Tasks will have a title indicating their objectives and will be divided into multiple steps.
+    * **Steps**: Each step will have a description of the current task requirements and a progress state. Steps can be added in advance or as needed.
+    * **Data Storage**: All data will be saved using the LocalStorage browser API.
+    * **Basic Avatar Creation**: Users can create a simple avatar to represent them within the application. This feature will be expanded in phase 3.
 
-### `npm test`
+2. Advanced Features
+    * **Task Importance and Estimated Difficulty**: Ability to assign importance and estimated difficulty levels to tasks, and mark them as optional.
+    * **Milestones**: Ability to define milestones and associate tasks with them.
+    * **XP System**: Earn XP points by completing quests, with the amount of XP proportional to the task's difficulty and importance.
+    * **Data Export to XLSX**: Export project data to XLSX files for further analysis or sharing outside the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Collaborative Features (requiring a dedicated backend)
+    * **Enhanced Avatar Creation**: Users will have more customization options for their avatars, allowing them to better represent themselves within organizations and projects.
+    * **Organizations (Guilds)**: Users can create and manage organizations, representing a company or a team, for example.
+    * **Invitations**: Organizations can invite members to join.
+    * **Avatar Selection**: Invited members can choose one of their avatars to use within the organization.
+    * **Organizations Projects**: Organizations can define projects and assign members to them.
+    * **Data Storage**: Guild projects and members' chosen avatars are stored on the backend.
 
-### `npm run build`
+### Introducing "Serious Mode"
+For those who prefer a more traditional project management experience, Project Quest will include a "Serious Mode". This mode will:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Disable all RPG vocabulary
+* Disable all gamification features
+* Switch to a more conventional application theme
+* Be useful for presenting your work in a professional setting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is just the beginning of Project Quest. Stay tuned for more updates as the project develops!
