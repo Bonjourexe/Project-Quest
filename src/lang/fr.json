@@ -1,0 +1,22 @@
+{
+    "REMOVE_PROJECT": {
+        "RPG": "Supprimer la campagne",
+        "SERIOUS": "Supprimer le projet"
+    },
+    "ADD_TASK": {
+        "RPG": "Ajouter une quête",
+        "SERIOUS": "Ajouter une tâche"
+    },
+    "REMOVE_TASK": {
+        "RPG": "Supprimer la quête",
+        "SERIOUS": "Supprimer la tâche"
+    },
+    "ADD_STEP": {
+        "RPG": "Ajouter une étape",
+        "SERIOUS": "Ajouter une étape"
+    },
+    "REMOVE_STEP": {
+        "RPG": "Supprimer l'étape",
+        "SERIOUS": "Supprimer l'étape"
+    }
+}
